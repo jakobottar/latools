@@ -5,6 +5,10 @@ import (
 	"math"
 )
 
+func Test() {
+	fmt.Println("I'm Alive!")
+}
+
 // DotProduct calculates the dot product of two n-dimensional vectors
 func DotProduct(a, b []float64) (sum float64) {
 	sum = 0
