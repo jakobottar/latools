@@ -44,3 +44,12 @@ func EuclideanDistance(p, q []float64) (d float64) {
 
 	return math.Sqrt(d)
 }
+
+// ManhattanDistance calculates the 1-norm distance between to n-dimensional points
+func ManhattanDistance(p, q []float64) (d float64) {
+	d = 0
+	for i := range q {
+		d += math.Abs(p[i] - q[i])
+	}
+	return
+}
