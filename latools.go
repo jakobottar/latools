@@ -1,4 +1,4 @@
-package latools
+package main
 
 import (
 	"fmt"
