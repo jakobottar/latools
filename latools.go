@@ -53,3 +53,12 @@ func ManhattanDistance(p, q []float64) (d float64) {
 	}
 	return
 }
+
+// Add performs simple vector addition
+func Add(p, q []float64) (x []float64) {
+	x = make([]float64, len(p))
+	for i := range x {
+		x[i] = p[i] + q[i]
+	}
+	return
+}
